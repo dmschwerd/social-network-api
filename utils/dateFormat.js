@@ -89,8 +89,7 @@ module.exports = (
   } else {
     periodOfDay = 'am';
   }
-
-  const format = `${formattedMonth} ${dayOfMonth}, ${year} at ${hour}:${minutes} ${periodOfDay}`;
+  
   const format = `${hour}:${minutes} ${periodOfDay} on ${formattedMonth} ${dayOfMonth}, ${year}`;
 
   return format;
